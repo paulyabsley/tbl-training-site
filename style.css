@@ -1,0 +1,213 @@
+/*------------------------------*\
+	PAGE STYLES
+\*------------------------------*/
+
+body {
+	font-family:Georgia, Serif;
+	background:#F3F3F3;
+	margin:0;
+}
+
+.wrapper {
+	width:800px;
+	background:#FFF;
+	margin:25px auto;
+	padding:25px;
+	border:1px solid #CCC;
+}
+
+/*------------------------------*\
+	BASE STYLES
+\*------------------------------*/
+
+h1 {
+	font-size:55px;
+	margin:0;
+	padding:0;
+}
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:26px;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	margin:0;
+	padding:0;
+}
+
+p {
+	line-height:24px;
+}
+
+a {
+	color:#2AAC58;
+	text-decoration:none;
+	border-bottom:1px solid;
+}
+
+a:hover {
+	color:#BADA55;
+}
+
+abbr {
+	border-bottom:1px dotted;
+	cursor:help;
+}
+
+/*------------------------------*\
+	HEADER
+\*------------------------------*/
+
+#header {
+	background:#6EB7DB;
+	margin-bottom:25px;
+	padding:25px;
+	border-bottom:1px dashed #0D648E;
+}
+
+#header h1 {
+	color:#082F5F;
+}
+
+#header h2 {
+	margin-top:10px;
+	letter-spacing:2px;
+	font-weight:normal;
+	color:#0D648E;
+}
+
+/*-----------------------*\
+	PROFILE
+\*-----------------------*/
+
+.profile {
+	float:right;
+	width:200px;
+	margin-left:25px;
+	margin-bottom:25px;
+	border:10px solid #EEE;
+}
+
+/*-----------------------*\
+	INTRO
+\*-----------------------*/
+
+.intro {
+	font-size:20px;
+	line-height:30px;
+}
+
+.intro:first-letter {
+	font-size:65px;
+	line-height:50px;
+	font-weight:bold;
+	float:left;
+	padding-top:4px;
+	padding-right:8px;
+	padding-left:3px;
+}
+
+.run-in {
+	text-transform:uppercase;
+}
+
+/*-----------------------*\
+	BIO
+\*-----------------------*/
+
+.bio {
+	font-family:arial, helvetica, sans-serif;
+	float:left;
+	margin:25px 25px 20px 0;
+	border:1px solid #6EB7DB;
+}
+
+.bio h3 {
+	font-size:15px;
+	font-weight:normal;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	color:#082F5F;
+	background:#6EB7DB;
+	margin:0;
+	padding:10px;
+}
+
+.bio ol {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+.bio li {
+	font-size:14px;
+	padding:7px 10px;
+	border-bottom:1px dashed #6EB7DB;
+}
+
+.bio li:last-of-type {
+	border-bottom:none;
+}
+
+/*-----------------------*\
+	BLOCKQUOTE
+\*-----------------------*/
+
+blockquote {
+	background:#e6f8ff;
+	margin:0;
+	padding:10px 80px;
+}
+
+blockquote p {
+	text-align:center;
+	font-size:16px;
+	line-height:27px;
+	font-style:italic;
+	color:#082F5F;
+}
+
+/*-----------------------*\
+	FOOTER
+\*-----------------------*/
+
+#footer {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background:#6EB7DB;
+	margin:25px 0 0 0;
+	padding:25px;
+	border-top:1px dashed #0D648E;
+}
+
+#footer h2 {
+	color:#082F5F;
+	font-size:15px;
+}
+
+#footer ul {
+	margin:10px 0 0 0;
+	padding:0;
+	list-style-type:none;
+	overflow:hidden;
+}
+
+#footer li {
+	float:left;
+	padding:1px;
+	margin-right:20px;
+}
+
+#footer li a {
+	color:#FFF;
+}
+
+#footer li a:hover {
+	color:#082F5F;
+}
+
+#footer p {
+	color:#0D648E;
+	clear:both;
+	margin:10px 0 0 0;
+}
